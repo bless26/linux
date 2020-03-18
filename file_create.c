@@ -1,5 +1,5 @@
-﻿#include<fcntl.h>
-#include<sys/stat.h>
+        ﻿#include<fcntl.h>
+        #include<sys/stat.h>
 	
 
 	#include<sys/types.h>
@@ -20,7 +20,7 @@
 	char b;
 	
 
-	f=open("/home/sam/Desktop/q.txt",O_RDWR);
+	f=open("/home/bless/Desktop/file.txt",O_RDWR);
 	
 
 	if(f==-1)
@@ -80,7 +80,7 @@
 	printf("\n");
 	
 
-	w=write(f,"heyyy sam",100);
+	w=write(f,"heyyy iam blessy",100);
 	
 
 	if(w==-1)
